@@ -1,4 +1,4 @@
-# شرح الوصول لعنوان الـ IP الخاص بـ Docker Container مع بعض الأمثلة
+# How to Get A Docker Container IP Address - Explained with Examples
 
 ![Marcelo Costa](https://www.freecodecamp.org/news/content/images/size/w100/2020/06/mmiranda.jpg)
 
@@ -216,7 +216,7 @@ jq '.[] | .Name + ":" + .IPv4Address'
 
 ![drawing](https://www.freecodecamp.org/news/content/images/2020/06/cherry-success.png)
 
-فى حال لم تلاحظ فاننا استخدمنا صيغة [**jq**](https://github.com/stedolan/jq) فى تحليل الـ map object الخاصة بالـ `Containers`.
+فى حال لم تلاحظ فاننا استخدمنا صيغة [**jq**](https://github.com/stedolan/jq) فى عمل تحليل (parsing) لـ map object الخاصة بالـ `Containers`.
 
 ### 2. باستخدام Docker exec
 
@@ -245,7 +245,7 @@ ip -4 -o address
 7: eth0    inet 172.18.0.3/16 brd 172.18.255.255 scope global eth0
 ```
 
-يمكننا الوصول لعناوين الـ IP الخاصة بـ containers أخرى تقع مع `dockerhive_namenode` في شبكة مشتركة `docker-hive_default`
+يمكننا الوصول لعناوين الـ IP الخاصة بـ containers أخرى تقع مع `dockerhive_namenode` في شبكة مشتركة (في حالتنا الشبكة المشتركة هي `docker-hive_default`)
 
 **Data node**
 
