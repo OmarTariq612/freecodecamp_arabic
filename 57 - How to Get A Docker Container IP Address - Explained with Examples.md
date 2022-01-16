@@ -6,7 +6,7 @@
 
 ![How to Get A Docker Container IP Address - Explained with Examples](https://cdn-media-2.freecodecamp.org/w1280/5f9c9a19740569d1a4ca2384.jpg)
 
-يمنحنا Docker القدرة على تشغيل التطبيقات في بيئات شبه معزولة تُدعى Conainers.
+يمنحنا Docker القدرة على تشغيل التطبيقات في بيئات شبه معزولة تُدعى Containers.
 
 أعلم ما تفكر فيه (مقال آخر يتحدث عن Docker) إنه في كل مكان هذه الأيام! 
 
