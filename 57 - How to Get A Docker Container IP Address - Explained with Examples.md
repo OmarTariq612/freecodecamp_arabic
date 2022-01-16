@@ -283,6 +283,6 @@ PING dockerhive_hive-server (172.18.0.4): 56 data bytes
 
 يجب الأخذ في عين الاعتبار أن عناوين الـ IP فى الأمثلة السابقة هى داخلية (internal) بشبكة `docker-hive_default` ،وأنه عند الحاجة للوصول لهذه الـ containers خارجيا (من خارج شبكة `docker-hive_default`) فإنه يلزم استخدام عنوان الـ IP الخارجي الخاص بالجهاز المضيف (host) (على افتراض أنك قمت بالفعل بفتح الـ ports الخاصة بالـ containers بشكل صحيح). 
   
-اجعل kubernetes يتعامل مع الأمور الخاصة بعناوين الـ IP فى حال كنت تستخدم kubernetes لإدارة الـ Docker containers الخاصة بك [kubernetes-expose-external-ip-address](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/).
+أو اجعل kubernetes يتعامل مع الأمور الخاصة بعناوين الـ IP فى حال كنت تستخدم kubernetes لإدارة الـ Docker containers الخاصة بك [kubernetes-expose-external-ip-address](https://kubernetes.io/docs/tutorials/stateless-application/expose-external-ip-address/).
 
 *** Illustrations from  [icons8.com](https://icons8.com/)  by  [Murat Kalkavan](https://dribbble.com/muratkalkavan).**
